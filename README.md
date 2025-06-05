@@ -1,56 +1,57 @@
-# 🫀 Heart Disease Prediction App
+# 🫀 Heart Disease Prediction using Machine Learning
+![GitHub repo stars](https://img.shields.io/github/stars/auspicie/heart-disease-prediction?style=social)
+![GitHub forks](https://img.shields.io/github/forks/auspicie/heart-disease-prediction?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/auspicie/heart-disease-prediction)
+![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)
+![License](https://img.shields.io/github/license/auspicie/heart-disease-prediction)
 
-This is a machine learning web application built with **Streamlit App** that predicts the likelihood of heart disease in a patient based on user input features.
+## 📌 Overview
+This project develops a machine learning model to predict the likelihood of heart disease based on clinical features, including age, blood pressure, cholesterol levels, and other relevant factors. The goal is to assist in early detection and support medical decision-making through data-driven insights
 
 ## 🚀 Features
-- Loads a trained ML model (`Random Forest`)
-- Scales user input using a saved `StandardScaler`
-- Predicts heart disease likelihood
-- User-friendly Streamlit interface
+- Exploratory Data Analysis
+- Data Preprocessing: Feature scaling, feature engineering
+- Model Selection: Evaluation of multiple ML classifiers (e.g., Random Forest, XGBoost)
+- Performance Metrics: Accuracy, precision, recall, F1-score, ROC-AUC curve
+- Deployment: Interactive web interface using Streamlit
 
-## 🧰 Tech Stack
-- Python
-- Streamlit
-- Scikit-learn
-- NumPy
-- Pandas
-- Matplotlib / Seaborn
+## 🛠️ Installation
+1. **Clone the repository**
+git clone https://github.com/auspicie/Heart-Disease_Prediction-ML.git
+cd heart-disease-prediction
 
-## 📁 Project Structure
-```
-heart_disease_predictor/
-│
-├── heart_disease_app.py        # Streamlit web app
-├── heart_disease_model.pkl     # Trained ML model
-├── scaler.pkl                  # Fitted scaler for preprocessing
-├── requirements.txt            # Python dependencies
-└── README.md                   # Project overview and usage guide
-```
-
-## 📝 Setup Instructions
-
-1. **Clone or download this repo**
-2. **Install dependencies**:
-```bash
+2. **Install dependencies**
 pip install -r requirements.txt
-```
+
+## 💻 Usage
 
 3. **Run the Streamlit app**:
 ```bash
 streamlit run heart_disease_app.py
 ```
-
 4. **Interact with the app**: Input values and view predictions in your browser.
-
-## 📌 Notes
-- Ensure that the `heart_disease_model.pkl` and `scaler.pkl` are in the same directory as the app.
-- Model was trained on features including age, sex, chest pain type, cholesterol, etc.
-
 ## ✨ Example Prediction
 Input: `Male, Age: 58, Cholesterol: 230, ...`  
 Output: ✅ *Unlikely to have heart disease*
 
 ---
 
-### Author
+## 📊 Dataset
+Source: [https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset]
+Clinical Features: Age, cholesterol, blood pressure, chest pain type, smoking history, etc.
+
+##🤝 Contributing
+Contributions are welcome! Feel free to:
+Open an issue
+Submit a pull request
+
+## 📄 License
+This project is licensed under the MIT License.
+
+## 📌 Notes
+- Ensure that the `heart_disease_model.pkl` and `scaler.pkl` are in the same directory as the app.
+
+
+
+### Author: Samsudeen Bankole
 Built with ❤️ using Streamlit and Scikit-learn.

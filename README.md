@@ -12,18 +12,18 @@ This project develops a machine learning model to predict the likelihood of hear
 
 ## 🛠️ Installation
 
-1. **Clone the repository**
+**Clone the repository**
 
 ```bash
 git clone https://github.com/auspicie/Heart-Disease_Prediction-ML.git
 cd heart-disease-prediction
 
-2. **Install dependencies**
+**Install dependencies**
 pip install -r requirements.txt
-```bash
 
 ## 💻 Usage
-**Run the Streamlit app**:
+
+**Run the Streamlit app:**
 streamlit run heart_disease_app.py
 
 

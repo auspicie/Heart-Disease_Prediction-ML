@@ -1,9 +1,4 @@
 # 🫀 Heart Disease Prediction using Machine Learning
-![GitHub repo stars](https://img.shields.io/github/stars/auspicie/heart-disease-prediction?style=social)
-![GitHub forks](https://img.shields.io/github/forks/auspicie/heart-disease-prediction?style=social)
-![GitHub last commit](https://img.shields.io/github/last-commit/auspicie/heart-disease-prediction)
-![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)
-![License](https://img.shields.io/github/license/auspicie/heart-disease-prediction)
 
 ## 📌 Overview
 This project develops a machine learning model to predict the likelihood of heart disease based on clinical features, including age, blood pressure, cholesterol levels, and other relevant factors. The goal is to assist in early detection and support medical decision-making through data-driven insights
@@ -16,7 +11,10 @@ This project develops a machine learning model to predict the likelihood of hear
 - Deployment: Interactive web interface using Streamlit
 
 ## 🛠️ Installation
+
 1. **Clone the repository**
+
+```bash
 git clone https://github.com/auspicie/Heart-Disease_Prediction-ML.git
 cd heart-disease-prediction
 
@@ -38,9 +36,11 @@ Output: ✅ *Unlikely to have heart disease*
 
 ## 📊 Dataset
 Source: [https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset]
+
 Clinical Features: Age, cholesterol, blood pressure, chest pain type, smoking history, etc.
 
 ##🤝 Contributing
+
 Contributions are welcome! Feel free to:
 Open an issue
 Submit a pull request

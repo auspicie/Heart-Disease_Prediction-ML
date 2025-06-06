@@ -20,6 +20,7 @@ cd heart-disease-prediction
 
 **Install dependencies**
 pip install -r requirements.txt
+```
 
 ## 💻 Usage
 

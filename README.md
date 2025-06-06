@@ -20,10 +20,10 @@ cd heart-disease-prediction
 
 2. **Install dependencies**
 pip install -r requirements.txt
+```bash
 
 ## 💻 Usage
 **Run the Streamlit app**:
-```bash
 streamlit run heart_disease_app.py
 ```
 

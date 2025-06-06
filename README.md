@@ -22,12 +22,12 @@ cd heart-disease-prediction
 pip install -r requirements.txt
 
 ## 💻 Usage
-
-3. **Run the Streamlit app**:
+**Run the Streamlit app**:
 ```bash
 streamlit run heart_disease_app.py
 ```
-4. **Interact with the app**: Input values and view predictions in your browser.
+
+**Interact with the app**: Input values and view predictions in your browser.
 ## ✨ Example Prediction
 Input: `Male, Age: 58, Cholesterol: 230, ...`  
 Output: ✅ *Unlikely to have heart disease*
@@ -39,7 +39,7 @@ Source: [https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset]
 
 Clinical Features: Age, cholesterol, blood pressure, chest pain type, smoking history, etc.
 
-##🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Feel free to:
 Open an issue
@@ -50,8 +50,6 @@ This project is licensed under the MIT License.
 
 ## 📌 Notes
 - Ensure that the `heart_disease_model.pkl` and `scaler.pkl` are in the same directory as the app.
-
-
 
 ### Author: Samsudeen Bankole
 Built with ❤️ using Streamlit and Scikit-learn.

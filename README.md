@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ## 💻 Usage
 **Run the Streamlit app**:
 streamlit run heart_disease_app.py
-```
+
 
 **Interact with the app**: Input values and view predictions in your browser.
 ## ✨ Example Prediction

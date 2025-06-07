@@ -50,7 +50,8 @@ Open an issue
 Submit a pull request
 
 ## 📄 License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
+
 
 ## 📌 Notes
 - Ensure that the `heart_disease_model.pkl` and `scaler.pkl` are in the same directory as the app.

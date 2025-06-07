@@ -33,6 +33,8 @@ streamlit run heart_disease_app.py
 Input: `Male, Age: 58, Cholesterol: 230, ...`  
 Output: ✅ *Unlikely to have heart disease*
 
+## 📷 Streamlit App Preview
+![Diabetes App Screenshot](https://github.com/auspicie/Diabetes_Prediction-ML/blob/2157dfff8ed1caa47fefab2b30506bde65580a03/Diabetes_app.png?raw=true)
 ---
 
 ## 📊 Dataset

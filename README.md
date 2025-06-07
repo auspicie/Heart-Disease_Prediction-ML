@@ -5,7 +5,7 @@ This project develops a machine learning model to predict the likelihood of hear
 
 ## 🚀 Features
 - Exploratory Data Analysis
-- Data Preprocessing: Feature scaling, feature engineering
+- Data Preprocessing: Feature scaling
 - Model Selection: Evaluation of multiple ML classifiers (e.g., Random Forest, XGBoost)
 - Performance Metrics: Accuracy, precision, recall, F1-score, ROC-AUC curve
 - Deployment: Interactive web interface using Streamlit
@@ -34,7 +34,8 @@ Input: `Male, Age: 58, Cholesterol: 230, ...`
 Output: ✅ *Unlikely to have heart disease*
 
 ## 📷 Streamlit App Preview
-![Diabetes App Screenshot](https://github.com/auspicie/Diabetes_Prediction-ML/blob/2157dfff8ed1caa47fefab2b30506bde65580a03/Diabetes_app.png?raw=true)
+![Diabetes App Screenshot](https://github.com/auspicie/Heart-Disease_Prediction-ML/blob/d1daf8333ae0595610dd23d53cfecf9b96587a9c/Heart_Disease_Prediction.png?raw-true)
+
 ---
 
 ## 📊 Dataset

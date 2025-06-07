@@ -17,7 +17,7 @@ st.write("Enter the following information to predict the risk of heart disease:"
 
 # User inputs
 age = st.number_input("Age", min_value=1, max_value=120)
-sex = st.selectbox("Sex", ["Male(1)", "Female(0)"])
+sex = st.selectbox("Sex", ["Male", "Female"])
 cp = st.selectbox("Chest Pain Type (cp)", [0, 1, 2, 3])
 trestbps = st.number_input("Resting Blood Pressure (trestbps)")
 chol = st.number_input("Cholesterol Level (chol)")

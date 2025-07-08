@@ -39,7 +39,7 @@ Output: ✅ *Unlikely to have heart disease*
 ---
 
 ## 📊 Dataset
-Source: [https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset]
+Source: [Kaggle](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
 
 Clinical Features: Age, cholesterol, blood pressure, chest pain type, smoking history, etc.
 
